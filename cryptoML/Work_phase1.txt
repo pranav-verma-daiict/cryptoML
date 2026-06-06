@@ -1,4 +1,4 @@
-# cryptoML - Phase 1 (Week 1) Documentation
+# cryptoML - Phase 1 Documentation
 
 ## Completed Tasks:
 - Project structure created with modular folders
@@ -14,11 +14,11 @@
 - Fixed Python path / import issues in Docker
 
 ## Status:
-Week 1 Foundation complete. Docker stack runs with FL training loop working.
+Phase 1 Foundation complete. Docker stack runs with FL training loop working.
 
 ## How to Run:
 1. docker compose -f .docker/docker-compose.yml up --build -d
 2. Access dashboard: http://localhost:8501
 
 Date: June 2026
-Phase complete. Ready for Week 2.
+Phase complete. Ready for Phase 2.
