@@ -1,0 +1,3 @@
+{"timestamp": "2026-06-06T08:00:00", "source_ip": "192.168.2.20", "dest_ip": "10.0.0.6", "event_type": "login", "log_level": "INFO", "message": "Successful login", "user_id": "user4", "process_id": 2234}
+{"timestamp": "2026-06-06T08:01:00", "source_ip": "198.51.100.10", "dest_ip": "10.0.0.6", "event_type": "login", "log_level": "WARN", "message": "Failed login attempt", "user_id": "user5", "process_id": 2235}
+{"timestamp": "2026-06-06T08:02:00", "source_ip": "192.168.2.25", "dest_ip": "10.0.0.6", "event_type": "http", "log_level": "ERROR", "message": "XSS attempt detected", "user_id": "user6", "process_id": 2236}
