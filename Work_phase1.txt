@@ -1,0 +1,24 @@
+# cryptoML - Phase 1 Documentation
+
+## Completed Tasks:
+- Project structure created with modular folders
+- Docker + Docker Compose setup for multi-agency simulation (fl-server, agency1, agency2, dashboard)
+- requirements.txt with PyTorch, Flower, Streamlit, etc.
+- Config files (settings.yaml, log_schema.json)
+- Core preprocessing pipeline (core/preprocessing.py)
+- Basic Autoencoder model (core/models.py)
+- Flower Federation Server and Client implementation with local training
+- Sample JSONL log data for agencies
+- Streamlit basic dashboard
+- Audit logger skeleton
+- Fixed Python path / import issues in Docker
+
+## Status:
+Phase 1 Foundation complete. Docker stack runs with FL training loop working.
+
+## How to Run:
+1. docker compose -f .docker/docker-compose.yml up --build -d
+2. Access dashboard: http://localhost:8501
+
+Date: June 2026
+Phase complete. Ready for Phase 2.

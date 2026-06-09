@@ -1,0 +1,19 @@
+federation:
+  server_address: "0.0.0.0:8080"
+  rounds: 5
+  min_clients: 2
+
+log_schema:
+  fields:
+    - timestamp
+    - source_ip
+    - dest_ip
+    - event_type
+    - log_level
+    - message
+    - user_id
+    - process_id
+
+privacy:
+  dp_epsilon: 1.0
+  clip_norm: 1.0

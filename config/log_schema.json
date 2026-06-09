@@ -1,0 +1,10 @@
+{
+  "timestamp": "datetime",
+  "source_ip": "string",
+  "dest_ip": "string",
+  "event_type": "string",
+  "log_level": "string",
+  "message": "string",
+  "user_id": "string",
+  "process_id": "integer"
+}
