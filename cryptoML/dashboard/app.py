@@ -8,7 +8,7 @@ st.sidebar.success("Connected to Federation Server")
 
 col1, col2 = st.columns(2)
 with col1:
-    st.metric("Active Agencies", "2/2")
+    st.metric("Number of Active Agencies", "2/2")
     st.metric("FL Rounds Completed", "3")
 
 with col2:
