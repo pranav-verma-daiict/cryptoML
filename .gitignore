@@ -1,0 +1,218 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Machine Learning & PyTorch
+*.pth
+*.pt
+*.ckpt
+checkpoint/
+checkpoints/
+models/
+*.model
+*.pkl
+*.pickle
+
+# Data files
+data/sample_logs/*.jsonl
+data/sample_logs/*.json
+data/logs/
+data/tmp/
+data/*.csv
+data/*.tsv
+data/*.feather
+*.parquet
+
+# Audit logs
+data/audit.log
+audit/audit.log
+*.log
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# FL (Flower) artifacts
+.flower/
+flower_logs/
+
+# Streamlit cache
+.streamlit/
+*.streamlit/
+
+# Gradio
+.gradio/
+
+# Output/temporary files
+output/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Local configuration overrides
+config/settings.local.yaml
+config/settings.dev.yaml
+
+# Weights and biases
+wandb/
+.wandb
+
+# Neptune
+.neptune/
+
+# Experiment tracking
+experiments/
+experiment_logs/
+runs/
+
+# Large data files (keep only samples)
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.7z
+
+# Node modules (if using any JS tools)
+node_modules/
+
+# Generated files
+*.pyc
+*.pyo
+.cache
