@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  fl-server:
+    build:
+      context: ..
+      dockerfile: .docker/Dockerfile.server
+    container_name: cryptoML-fl-server
+    ports:
+      - "8080:8080"
+    networks:
+      - cryptoml-net
+    volumes:
+      - ../data:/app/data
+
+  agency1:
+    build:
+      context: ..
+      dockerfile: .docker/Dockerfile.agency
+    container_name: cryptoML-agency1
+    environment:
+      - AGENCY_ID=agency1
+    networks:
+      - cryptoml-net
+    volumes:
+      - ../data:/app/data
+
+  agency2:
+    build:
+      context: ..
+      dockerfile: .docker/Dockerfile.agency
+    container_name: cryptoML-agency2
+    environment:
+      - AGENCY_ID=agency2
+    networks:
+      - cryptoml-net
+    volumes:
+      - ../data:/app/data
+
+  dashboard:
+    build:
+      context: ..
+      dockerfile: .docker/Dockerfile.base
+    container_name: cryptoML-dashboard
+    ports:
+      - "8501:8501"
+    networks:
+      - cryptoml-net
+    command: streamlit run dashboard/app.py --server.port=8501 --server.address=0.0.0.0
+
+networks:
+  cryptoml-net:
+    driver: bridge
