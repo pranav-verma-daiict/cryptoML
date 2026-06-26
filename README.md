@@ -4,7 +4,7 @@
 
 Privacy-preserving platform for collaborative anomaly detection using Federated Learning. No raw logs are shared between agencies.
 
-## Features (MVP - Week 1)
+## Features
 - Docker-based multi-party setup (simulated agencies)
 - Standardized log ingestion
 - Federated Learning with PyTorch + Flower (Autoencoder for anomalies)
